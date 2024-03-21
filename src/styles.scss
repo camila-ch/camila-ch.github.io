@@ -1,4 +1,4 @@
-@import "sass/vendors/bootstrap";
+@import "sass/vendors/_bootstrap.scss";
 
 @import "sass/abstracts/mixins";
 @import "sass/abstracts/variables";
@@ -14,5 +14,5 @@
 
 @import "sass/sections/about";
 @import "sass/sections/contact";
-@import "sass/sections/hero";
+@import "sass/sections/_hero.scss";
 @import "sass/sections/projects";

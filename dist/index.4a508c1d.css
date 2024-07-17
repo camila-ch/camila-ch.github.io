@@ -13386,6 +13386,25 @@ a:hover {
   width: 100%;
 }
 
+.cta-btn--nav {
+  color: #d6cece;
+  border: 1px solid #d6cece;
+  font-size: 1.5rem;
+}
+
+.cta-btn--nav:after {
+  background: #d6cece;
+}
+
+.cta-btn--nav:hover {
+  color: #274046;
+  text-decoration: none;
+}
+
+.cta-btn--nav:hover:after {
+  width: 100%;
+}
+
 .up i {
   color: #272727;
 }
@@ -13468,6 +13487,17 @@ section {
     border: none;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+}
+
+.navbar {
+  background-image: linear-gradient(135deg, #616161 0%, #274046 100%);
+  padding: 1rem 0;
+}
+
+@media (width <= 37.5em) {
+  .navbar {
+    border: 0;
   }
 }
 

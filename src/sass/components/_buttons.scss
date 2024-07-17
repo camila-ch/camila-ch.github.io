@@ -101,6 +101,27 @@
   }
 }
 
+/* Nav Style */
+.cta-btn--nav {
+  color: $white-color;
+  border: 1px solid $white-color;
+  font-size: 1.5rem;
+
+  &::after {
+    background: $white-color;
+  }
+
+  &:hover {
+    color: $secondary-color;
+    text-decoration: none;
+
+    &::after {
+      width: 100%;
+    }
+  }
+}
+
+
 /* Arrow Button */
 .up i {
   color: #272727;

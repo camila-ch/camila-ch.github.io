@@ -6,13 +6,23 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build"
+    "build": "parcel build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/camila-ch/camila-ch.github.io"
   },
-  "keywords": ["portfolio", "web development", "translation", "LLMs", "localization", "Spanish", "machine translation"],
+  "keywords": [
+    "portfolio",
+    "web development",
+    "translation",
+    "LLMs",
+    "localization",
+    "Spanish",
+    "machine translation"
+  ],
   "author": "Camila Herrera",
   "license": "ISC",
   "bugs": {
@@ -21,6 +31,7 @@
   "homepage": "https://camila-ch.github.io/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
+    "gh-pages": "^6.3.0",
     "parcel": "^2.8.2",
     "prettier": "^2.8.1"
   },

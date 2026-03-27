@@ -1,8 +1,8 @@
 {
-  "name": "simplefolio",
+  "name": "camila-portfolio",
   "version": "1.0.1",
   "private": "true",
-  "description": "A clean, beautiful and responsive portfolio template for Developers!",
+  "description": "My personal portfolio showcasing web development and translation projects",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cobiwave/simplefolio"
+    "url": "git+https://github.com/camila-ch/camila-ch.github.io"
   },
-  "keywords": [],
-  "author": "Jacobo Martinez",
+  "keywords": ["portfolio", "web development", "translation", "LLMs", "localization", "Spanish", "machine translation"],
+  "author": "Camila Herrera",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cobiwave/simplefolio/issues"
+    "url": "https://github.com/camila-ch/camila-ch.github.io/issues"
   },
   "homepage": "https://camila-ch.github.io/",
   "devDependencies": {
